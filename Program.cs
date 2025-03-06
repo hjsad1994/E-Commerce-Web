@@ -21,7 +21,7 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.asdasdasasdsadsadsdasdasd
+// Configure the HTTP request pipeline.asdasdasasdsadsadsdasdasdaaaaa
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();

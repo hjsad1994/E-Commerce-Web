@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-dacs-bfb0fdd4-959c-4c0b-ae7b-0de77aaa22de</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ShopDetailController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Controllers\ShopDetailController.cs" />
+    <None Include="Views\Cart\Index.cshtml" />
+    <None Include="Views\Home\checkout.cshtml" />
+    <None Include="Views\Home\contact-us.cshtml" />
+    <None Include="Views\Home\gallery.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\my-account.cshtml" />
+    <None Include="Views\Home\shop-detail.cshtml" />
+    <None Include="Views\Home\shop.cshtml" />
+    <None Include="Views\Home\wishlist.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11" />
+  </ItemGroup>
+
+</Project>

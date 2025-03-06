@@ -1,4 +1,4 @@
-using dacs.Data;
+﻿using dacs.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
@@ -21,7 +21,7 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline.ddđ
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();

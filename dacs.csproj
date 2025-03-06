@@ -8,20 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\ShopDetailController.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Controllers\ShopDetailController.cs" />
     <None Include="Views\Cart\Index.cshtml" />
-    <None Include="Views\Home\checkout.cshtml" />
-    <None Include="Views\Home\contact-us.cshtml" />
-    <None Include="Views\Home\gallery.cshtml" />
+    <None Include="Views\Checkout\Index.cshtml" />
+    <None Include="Views\ContactUs\Index.cshtml" />
+    <None Include="Views\Gallery\Index.cshtml" />
     <None Include="Views\Home\Index.cshtml" />
-    <None Include="Views\Home\my-account.cshtml" />
-    <None Include="Views\Home\shop-detail.cshtml" />
-    <None Include="Views\Home\shop.cshtml" />
-    <None Include="Views\Home\wishlist.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
